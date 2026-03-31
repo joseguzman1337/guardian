@@ -1,9 +1,0 @@
-#Remove the following two lines to have the cookbook work in test kitchen
-require 'builderator/util/berkshim'
-extend Builderator::Util::Berkshim
-
-source 'http://chef.rapid7.com:9080'  # Core chef org
-source 'https://supermarket.getchef.com'
-
-#Replaces shims with metadata to run test kitchen
-shims
